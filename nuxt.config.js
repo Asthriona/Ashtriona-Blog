@@ -1,7 +1,8 @@
 
+var siteconfig = require("./config.json");
 export default {
   server: {
-    port: 1102, // default: 3000
+    port: siteconfig.appPort, // default: 3000
     host: '0.0.0.0', // default: localhost
   },
   mode: 'universal',
@@ -69,7 +70,7 @@ export default {
   modules: [
     '@nuxtjs/pwa',
     ['storyblok-nuxt', 
-    { accessToken: 'lYar768BRdj2pxA3zZEpJAtt', cacheProvider: 'memory' }
+    { accessToken: siteconfig.sbAT, cacheProvider: 'memory' }
     ],
   ],
   /*
