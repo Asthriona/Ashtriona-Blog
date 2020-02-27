@@ -34,24 +34,6 @@ export default {
       };
     });
   }
-//  data() {
-//    return {
-//      posts: [
-//        {
-//          title: 'This Is a test!',
-//          previewText: "Random Hard coded blog post to test. :)",
-//          thumbnailUrl: "https://dummyimage.com/400x400/000/fff.png",
-//          id: "Test-Article"
-//        },
-//        {
-//          title: 'This Is another!',
-//          previewText: "Another random Hard coded blog post to test. :)",
-//          thumbnailUrl: "https://avatarfiles.alphacoders.com/449/44978.jpg",
-//          id: "Another-Test-Article"
-//        }
-//      ]
-//    }
-//  }
 };
 </script>
 

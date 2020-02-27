@@ -4,7 +4,7 @@
     <div class="post-thumbnail" :style="{backgroundImage: 'url(' + image + ')'}"></div>
     <section class="post-content">
         <h1>{{ title }}</h1>
-        <p>{{ content }}</p>
+        <div class="product__description" v-html="$options.filters.markdown(blok.content)"></div>
     </section>
     </div>
 </template>
