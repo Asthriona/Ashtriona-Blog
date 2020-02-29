@@ -3,7 +3,7 @@
     <theHeader />
     <main class="main-content">
       <nuxt />
-    <!--<TheFooter />-->
+    <TheFooter />
     </main>
   </div>
 </template>
@@ -26,8 +26,10 @@ export default {
 body {
   font-family: "Raleway", sans-serif;
   margin: 0;
+  height: 100%;
 }
 .main-content {
   margin-top: 4.5rem;
 }
 </style>
+

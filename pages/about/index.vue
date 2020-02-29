@@ -23,6 +23,23 @@
                 All credit on image or video goes directly to their creator.<br></p>
                 <p>We are using differant Technologie such as NodeJS, Vue, Nuxt, Storyblok &amp; Apache.<br>
                 The code is availiable on GitHub.</p>
+                <h2 style="margin-top:50px;">Sources</h2>
+                 <p class="col-md-11 offset-md-1">
+                     This blog is using:
+                     <ul>
+                         <li>VueJS</li>
+                         <li>NuxtJS</li>
+                         <li>Webpack</li>
+                         <li>Prism</li>
+                         <li>Zepto</li>
+                         <li>Google Font</li>
+                         <li>Boostrap</li>
+                         <li>Storyblok</li>
+                     </ul>
+                     Most of the code is writen by Asthriona, except for:<br>
+                     TheFooter: <a href="http://www.mangoya.cn/#/" target="_blank" rel="noopener noreferrer">By Aimee</a> <a href="https://github.com/Aimee1608" target="_blank" rel="noopener noreferrer"> Github</a><br>
+                     Blog BackEnd: <a href="https://www.storyblok.com/" target="_blank" rel="noopener noreferrer">By StoryBlock</a> <a href="https://github.com/storyblok/" target="_blank" rel="noopener noreferrer">Github</a>
+                 </p>
             </div>
         </div>
     </section>
