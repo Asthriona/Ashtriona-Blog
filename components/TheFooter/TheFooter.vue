@@ -1,6 +1,5 @@
-<!-- 底部公用 -->
 <template>
-    <!-- Aimee的 -->
+    <!-- Footer code by Aimee的 -->
 <section>
         <div class="fcontainer footBack">
             <p>Code hosted on <a href="https://github.com/Asthriona/Ashriona-Blog" target="_blank">GitHub</a>. Website hosted by <a href="https://SiriusMediaGroup.com" target="_blank" rel="noopener noreferrer">Sirius Media Group</a> DNS Powered by <a href="https://Asthriona.com" target="_blank" rel="noopener noreferrer">Asthriona ltd.</a>.</p>
@@ -13,32 +12,31 @@
 
 <script>
     export default {
-        data() { //选项 / 数据
+        data() { c
             return {
-                footBg:"url(static/img/footer01.png) no-repeat 50%",//底部图片
                 longTime:'',
             }
         },
-        methods: { //事件处理器
-            runTime:function(){//运行倒计时
+        methods: { 
+            runTime:function(){
                 var that = this;
                 var oldTime =new Date('2019/08/24 00:00:00');
                 var timer = setInterval(function(){
                     var nowTime = new Date();
                     var longTime = nowTime - oldTime;
-                    var days = parseInt(longTime / 1000 / 60 / 60 / 24 , 10); //计算剩余的天数
-                      var hours = parseInt(longTime / 1000 / 60 / 60 % 24 , 10); //计算剩余的小时
-                      var minutes = parseInt(longTime / 1000 / 60 % 60, 10);//计算剩余的分钟
-                      var seconds = parseInt(longTime / 1000 % 60, 10);//计算剩余的秒数
+                    var days = parseInt(longTime / 1000 / 60 / 60 / 24 , 10); 
+                      var hours = parseInt(longTime / 1000 / 60 / 60 % 24 , 10);
+                      var minutes = parseInt(longTime / 1000 / 60 % 60, 10);
+                      var seconds = parseInt(longTime / 1000 % 60, 10);
                       that.longTime = days+" Days " + hours+" Hours " + minutes+" Minutes and "+seconds+" seconds";
                 },1000)
             }
         },
-        components: { //定义组件
+        components: {
 
         },
-        created() { //生命周期函数
-            //替换底部图片
+        created() {
+          
             var that = this;
             that.runTime();
         }
@@ -55,9 +53,7 @@
     width:100%;
     min-height: 50px;
     margin-top: 25px;
-    /*position: relative;*/
     position: absolute;
-    /*min-height: 368px;*/
 }
 .fcontainer{
     width:100%;
@@ -105,14 +101,12 @@
 .footBack a:hover{
     color:#000;
 }
-/*心脏呼吸*/
 .footBack .fheart{
     width:25px;
     height:25px;
     margin-top:-10px;
     top:5px;
     position: relative;
-    /*padding-top:0px;*/
     vertical-align: baseline;
     -webkit-animation: heartScale 1.33s ease-in-out infinite;
     animation: heartScale 1.33s ease-in-out infinite;
@@ -127,7 +121,6 @@
     50%{transform: scale(0.8)}
     100%{transform: scale(1)}
 }
-/*时间跳动*/
 .timeJump{
     animation:my-face 5s infinite ease-in-out;
     -webkit-animation:my-face 5s infinite ease-in-out;
