@@ -12,7 +12,7 @@
 
 <script>
     export default {
-        data() { c
+        data() {
             return {
                 longTime:'',
             }
