@@ -42,7 +42,8 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon-32x32.png' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap' }
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap' },
+      { rel: 'stylesheet', href: 'https://www.asthriona.com/fa/css/all.css' }
     ]
   },
   /*
@@ -73,6 +74,7 @@ export default {
     ['storyblok-nuxt', 
     { accessToken: siteconfig.sbAT, cacheProvider: 'memory' }
     ],
+    ["bootstrap-vue/nuxt"],
   ],
   /*
   ** Build configuration
