@@ -42,7 +42,6 @@
         }
     }
 </script>
-
 <style>
 .footBack{
     color:#888;
