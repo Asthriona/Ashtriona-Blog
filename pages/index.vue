@@ -10,6 +10,7 @@
       :id="post.id" />
   </section>
 </section>
+
 </template>
 
 <script>
