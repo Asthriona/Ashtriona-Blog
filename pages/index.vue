@@ -43,12 +43,13 @@ export default {
 <style lang="css" scoped>
 #posts {
   padding: 2rem;
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
-  flex-direction: columns;
-  width: 50%;
+  flex-wrap: wrap;
+  flex-direction: row;
   overflow: hidden;
+  width: 100%;
 }
 #posts > h1{
   font-weight: bold !important;
@@ -56,7 +57,7 @@ export default {
 }
 @media (min-width: 35rem) {
     #posts {
-      flex-direction: row;
+      flex-direction: columns;
     }
 }
 </style>
