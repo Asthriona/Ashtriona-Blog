@@ -8,20 +8,25 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.27",
-    "@fortawesome/free-solid-svg-icons": "^5.12.1",
+    "@fortawesome/fontawesome-svg-core": "^1.2.28",
+    "@fortawesome/free-solid-svg-icons": "^5.13.0",
     "@fortawesome/vue-fontawesome": "^0.1.9",
     "@nuxtjs/pwa": "^3.0.0-0",
-    "@sentry/browser": "^5.6.3",
-    "bootstrap-vue": "^2.7.0",
+    "@sentry/browser": "^5.14.2",
+    "axios": "^0.19.2",
+    "bootstrap-vue": "^2.6.1",
     "crypto": "^1.0.1",
     "highlight.js": "^9.18.1",
-    "marked": "^0.8.0",
+    "marked": "^0.8.1",
     "nuxt": "^2.0.0",
-    "storyblok-nuxt": "^1.0.1"
+    "storyblok-nuxt": "^1.0.1",
+    "snyk": "^1.316.1"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "snyk": true
 }
