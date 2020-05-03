@@ -2,7 +2,7 @@
 <template>
   <div id="post" v-editable="blok">
     <div class="post-thumbnail" :style="{backgroundImage: 'url(' + image + ')'}"></div>
-    <b-container fluid>
+    <b-container>
       <b-row>
         <b-col cols="12">
           <h1 class="title text-center">{{ title }}</h1>
