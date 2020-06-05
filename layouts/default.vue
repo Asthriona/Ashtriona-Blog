@@ -1,19 +1,23 @@
 <template>
   <div>
-    <theHeader />
-    <main class="main-content">
-      <nuxt />
-      <TheFooter />
-    </main>
+    <div id="page-container">
+      <div id="content-wrap">
+        <theHeader />
+        <main class="main-content">
+          <nuxt />
+          <TheFooter />
+        </main>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
 import TheHeader from "@/components/TheHeader/TheHeader";
 import TheFooter from "@/components/TheFooter/TheFooter";
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { faUserSecret } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { faUserSecret } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 export default {
   components: {
     TheHeader,
@@ -37,6 +41,21 @@ h1 {
 }
 .main-content {
   margin-top: 4.5rem;
+}
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 8rem; /* Footer height */
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 8rem; /* Footer height */
 }
 </style>
 
