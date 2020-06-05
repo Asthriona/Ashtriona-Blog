@@ -24,10 +24,9 @@
               <p>
                   Asthriona ltd mostly use Sirius Media Group's Network services, for Web Hosting and content delivreries.<br>
                   Sirius Media Group Assure us an 99.9% uptime.<br>
-                  Sirius Media Group llc can't be blame for any incident that can happen with their network or our website.
-
-                  4.1 Infer witrh our network.<br>
-                  interfere with or disrupt the Asthriona ltd Services or servers or networks connected to the Asthriona ltd Services, 
+                  Sirius Media Group ltd can't be blame for any incident that can happen with their network or our website.<br>
+                  <br>
+                  interfere with or disrupt the Asthriona ltd Services, servers or networks connected to the Asthriona ltd Services, 
                   or disobey any requirements, procedures, policies or regulations of networks connected to the Services; 
                   use the Asthriona ltd Services in any manner that could interfere with, disrupt, negatively affect or inhibit other users from fully enjoying the Asthriona ltd Services, 
                   or that could damage, disable, overburden or impair the functioning of the Asthriona ltd Services in any manner;
