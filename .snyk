@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.14.1
+version: v1.15.0
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -42,3 +42,5 @@ patch:
         patched: '2020-05-03T02:49:39.048Z'
     - nuxt > @nuxt/builder > @nuxt/webpack > @nuxt/babel-preset-app > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
         patched: '2020-05-03T02:49:39.048Z'
+    - nuxt > @nuxt/telemetry > inquirer > lodash:
+        patched: '2020-06-18T21:53:09.802Z'
